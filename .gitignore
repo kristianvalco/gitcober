@@ -1,15 +1,29 @@
-# Exclude all by default
-*
+# Common
+composer.phar
+.DS_Store
+.idea
+.env
+.env.*.php
+.env.php
+php_errors.log
+nginx-error.log
+nginx-access.log
+nginx-ssl.access.log
+nginx-ssl.error.log
+php-errors.log
+sftp-config.json
+.ftpconfig
+.vscode/
+selenium.php
+composer.lock
+package-lock.json
+/node_modules
+_ide_helper.php
+.phpunit.result.cache
+nbproject
+.phpstorm.meta.php
 
-# Include project-specific files
-!.gitignore
-!composer.*
-!.env.*
-!auth.json
-!app
-!app/**/*
-!themes
-!themes/**/*
-!plugins
-!plugins/your-vendor
-!plugins/your-vendor/your-plugin
+# Project
+/bootstrap/compiled.php
+/vendor
+/modules
